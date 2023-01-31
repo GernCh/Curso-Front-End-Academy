@@ -1,0 +1,134 @@
+.x{
+    margin-top: 20px;
+    background-color: #0d3775;
+}
+
+.carousel-caption{
+    color: black;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    left: 0%;
+    bottom: 0.75rem;
+}
+.list-group-item{
+    border: none;
+    Left: 0%;
+    padding-left: 0;
+    padding-top: 3px;
+}
+
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card-text{
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-top-color: grey;
+    margin-top: 0px;
+}
+.font20{
+    font-size: 20px;
+}
+
+.img-sm{
+    width: 7%;
+    vertical-align: 0;
+}
+@media only screen and (max-width: 700px){
+    .img-sm{ 
+        width: 15%;
+    }
+}
+.img-xsm{
+    width: 10%;
+    vertical-align: 0;
+}
+@media only screen and (max-width: 700px){
+    .img-xsm{ 
+        width: 15%;
+    }
+}
+.img-md{
+    width: 4.5%;
+    vertical-align: 0;
+}
+@media only screen and (max-width: 700px){
+    .img-md{ 
+        width: 15%;
+    }
+}
+.img-xs{
+    width: 2.2%;
+    vertical-align: 0;
+}
+@media only screen and (max-width: 700px){
+    .img-xs{ 
+        width: 15%;
+    }
+}
+.date{
+    padding-left: 15px;
+    color: rgb(95, 95, 95);
+    vertical-align: 0;
+}
+.position{
+    padding-left: 15px;
+}
+.position2{
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: grey;
+    margin-bottom: 15px;
+}
+.position3{
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-top-color: grey;
+    margin-top: 15px;
+}
+
+.card {
+    --bs-body-bg: #95d0f7;
+    --bs-card-box-shadow: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+
+}
+@media only screen and (max-width: 700px){
+    .card{
+        margin-top: 15px;
+    }
+}
+.card-name{
+    padding-left: 15px;
+}
+#SAT, #SAT2, #SAT3 {
+
+    background-color: #95d0f7; 
+    color: black; 
+    border: 2px solid #008CBA;
+    font-size: 15px;
+    padding: 0.5px;
+  }
+  
+  #SAT:hover, #SAT2:hover, #SAT3:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+#grade, #grade2, #grade3 {
+    margin: 0;
+    padding: 0;
+  }
